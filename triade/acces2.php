@@ -55,9 +55,6 @@ if ($_SESSION["membre"] == "menuadmin") {
         margin: 0 10px;
       }
 </style>
-
-<?php include("./librairie_php/googleanalyse.php"); ?>
-
 </head>
 <body id="bodyfond" style="margin:0;" >
 <noscript><meta http-equiv="Refresh" content="0; URL=noscript.php"></noscript>

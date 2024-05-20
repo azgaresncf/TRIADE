@@ -1540,28 +1540,6 @@ function protohttps() {
 	}
 }
 
-function enr_googleAnalytics($idref) {
-	global $cnx;
-        global $prefixe;
-	$sql="DELETE FROM ${prefixe}parametrage WHERE libelle='googleanalytic'";
-	execSql($sql);
-	$sql="INSERT INTO ${prefixe}parametrage (libelle,text) VALUES ('googleanalytic','$idref')";
-	execSql($sql);
-}
-
-function verifcomptegoogleanalytic() {
-	global $cnx;
-        global $prefixe;
-	$sql="SELECT text FROM ${prefixe}parametrage WHERE libelle='googleanalytic' ";
-	$res=execSql($sql);
-	$data=ChargeMat($res);
-	if (count($data) > 0) {
-		return true;
-	}else{
-		return false;
-	}
-}
-
 function modifpassedokeos($mp) {
 	global $cnx;
 	global $prefixe;
@@ -1593,20 +1571,6 @@ function intraMSN(){
 	file_put_contents($file_reg, $data);
 	return 1;
 }
-
-function recupcomptegoogleanalytic() {
-        global $cnx;
-        global $prefixe;
-        $sql="SELECT text FROM ${prefixe}parametrage WHERE libelle='googleanalytic' ";
-        $res=execSql($sql);
-        $data=ChargeMat($res);
-        if (count($data) > 0) {
-                return $data[0][0];
-        }else{
-                return "";
-        }
-}
-
 
 function verifMoodle($host,$user,$pass,$db,$type) {
         global $cnx;

@@ -75,7 +75,6 @@ document.write("<img src='/"+REPECOLE+"/"+REPADMIN+"/image/cube.gif' width='4' h
 document.write("<img src='/"+REPECOLE+"/"+REPADMIN+"/image/cube.gif' width='4' height='4'> <a id='menumodule0' href='/"+REPECOLE+"/"+REPADMIN+"/bug.php'>Assistance</a><BR>");
 document.write("<img src='/"+REPECOLE+"/"+REPADMIN+"/image/cube.gif' width='4' height='4'> <a id='menumodule0' href='/"+REPECOLE+"/"+REPADMIN+"/history_cmd.php'>Historique cmd</a><BR>");
 document.write("<img src='/"+REPECOLE+"/"+REPADMIN+"/image/cube.gif' width='4' height='4'> <a id='menumodule0' href='/"+REPECOLE+"/"+REPADMIN+"/statistique0.php'>Statistiques</a><br>");
-document.write("<img src='/"+REPECOLE+"/"+REPADMIN+"/image/cube.gif' width='4' height='4'> <a id='menumodule0' href='/"+REPECOLE+"/"+REPADMIN+"/triade-analytics.php'>Triade Analytics</a><br>");
 document.write("<img src='/"+REPECOLE+"/"+REPADMIN+"/image/cube.gif' width='4' height='4'> <a id='menumodule0' href='/"+REPECOLE+"/"+REPADMIN+"/maintenance.php'>Maintenance</a><BR>");
 //document.write("<img src='/"+REPECOLE+"/"+REPADMIN+"/image/cube.gif' width='4' height='4'> <a id='menumodule0' href='/"+REPECOLE+"/"+REPADMIN+"/warning.php'>Warning</a><BR>");
 document.write("<img src='/"+REPECOLE+"/"+REPADMIN+"/image/cube.gif' width='4' height='4'> <a id='menumodule0' href='/"+REPECOLE+"/"+REPADMIN+"/erreur.php'>Warning code</a><BR>");

@@ -20605,20 +20605,6 @@ function selectStage2($eid) {
 	}
 }
 
-
-function recupcomptegoogleanalytic() {
-	global $cnx;
-        global $prefixe;
-	$sql="SELECT text FROM ${prefixe}parametrage WHERE libelle='googleanalytic' ";
-	$res=execSql($sql);
-	$data=ChargeMat($res);
-	if (count($data) > 0) {
-		return $data[0][0];
-	}else{
-		return "";
-	}
-}
-
 function arrondiAuDemi2($nombre) {
 	/* 
 	- 1.21 x 2 = 2.42 -> round(2.42) = 2 -> 2 / 2 = 1 

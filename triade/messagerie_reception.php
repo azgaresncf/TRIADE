@@ -83,9 +83,6 @@ function validecase() {
 }
 
 </script>
-
-<?php include("./librairie_php/googleanalyse.php"); ?>
-
 </head>
 <?php
 
